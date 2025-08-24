@@ -29,7 +29,10 @@ Whether it’s investment planning, insurance, retirement, or wealth management,
 
           </p>
 
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold sm:text-[13px] px-12 py-2 rounded-full transition">
+          <button onClick={() => {
+            window.location.href = "/#contact";
+            }}
+           className="bg-blue-600 hover:bg-blue-700 text-white font-bold sm:text-[13px] px-12 py-2 rounded-full transition">
             Contact Us
           </button>
         </motion.div>
@@ -53,7 +56,7 @@ Whether it’s investment planning, insurance, retirement, or wealth management,
     </section>
     
       <img src="/images/inmemoriesof.png" alt="in memories of "
-      className=' items-center h-[400px] scale-125 md:scale-100 md:h-auto md:w-[70%]  m-auto ' />
+      className=' items-center h-[440px] scale-125 md:scale-100 md:h-auto md:w-[70%]  m-auto ' />
     </div>
   );
 };

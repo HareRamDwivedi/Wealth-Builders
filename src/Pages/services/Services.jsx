@@ -55,7 +55,11 @@ const ServicesSection = () => {
 
 
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-extralight text-[13px] px-10 py-3 rounded-full transition sm:items-center">
+          <button onClick={() => {
+    // Navigate to the URL with #contact
+    window.location.href = "/services";
+  }}
+          className="bg-blue-600 hover:bg-blue-700 text-white font-extralight text-[13px] px-10 py-3 rounded-full transition sm:items-center">
             Know More About Our Services
           </button>
         </div>

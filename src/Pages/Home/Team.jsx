@@ -11,7 +11,7 @@ export default function MeetOurTeam() {
     {
       id: 2,
       name: "Prachi",
-      position: "Client Success.HEIC",
+      position: "Client Success",
       image: "/images/Prachi.jpg"
     },
     {

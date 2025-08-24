@@ -57,7 +57,7 @@ const Contact = () => {
 
           <div className="mb-6">
             <div className="flex items-center mb-2">
-              <span className="text-blue-600 text-2xl mr-3">📍</span>
+              <span className="text-blue-600 text-2xl mr-3"><img className="w-[22px]" src="/images/gps.png" alt="location" /></span>
               <p className="text-[14px] sm:text-[17px] font-bold">OFFICE</p>
             </div>
             <p className="text-gray-700 text-[12px] sm:text-[15px] ml-9">
@@ -66,7 +66,7 @@ const Contact = () => {
           </div>
           <div className="mb-6">
             <div className="flex items-center mb-2">
-              <span className="text-blue-600 text-2xl mr-3">📞</span>
+              <span className="text-blue-600 text-2xl mr-3"><img className="w-[22px]" src="/images/phone-call.png" alt="phone" /></span>
               <p className="text-[14px] sm:text-[17px] font-bold">Contact Numbers:</p>
             </div>
             <p className="text-gray-700 text-[12px] sm:text-[15px] ml-9">
@@ -75,7 +75,7 @@ const Contact = () => {
           </div>
           <div className="mb-6">
             <div className="flex items-center mb-2">
-              <span className="text-blue-600 text-2xl mr-3">📞</span>
+              <span className="text-blue-600 text-2xl mr-3"><img className="w-[22px]" src="/images/email.png" alt="email" /></span>
               <p className="text-[14px] sm:text-[17px] font-bold">Emails:</p>
             </div>
             <p className="text-gray-700 text-[12px] sm:text-[15px] ml-9">
