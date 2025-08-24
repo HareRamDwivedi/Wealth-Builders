@@ -5,26 +5,26 @@ export default function MeetOurTeam() {
     {
       id: 1,
       name: "ARUNIM MEHROTRA",
-      position: "Post",
+      position: "CEO",
       image: "/images/Untitled design (9) 1.png"
     },
     {
       id: 2,
-      name: "ARUNIM MEHROTRA",
-      position: "Post",
-      image: "/images/Rectangle.png"
+      name: "Prachi",
+      position: "Client Success.HEIC",
+      image: "/images/Prachi.jpg"
     },
     {
       id: 3,
-      name: "ARUNIM MEHROTRA",
-      position: "Post",
-      image: "/images/Rectangle-1.png"
+      name: "Dhruv Kesharwani",
+      position: "Sales Representative ",
+      image: "/images/Dhruv Kesharwani.jpg"
     },
     {
       id: 4,
-      name: "ARUNIM MEHROTRA",
-      position: "Post",
-      image: "/images/Rectangle-2.png"
+      name: "Aswani Verma",
+      position: "Senior Sales Manager",
+      image: "/images/Aswani Verma.JPG"
     }
   ];
 

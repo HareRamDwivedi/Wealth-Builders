@@ -2,8 +2,9 @@ import { motion } from "framer-motion";
 
 const EmpowerSection = () => {
   return (
+    <div className="overflow-hidden">
     <section
-      className="bg-[#1C1C1C] text-white font-inter py-12 px-4 sm:px-6 md:px-16 lg:px-20"
+      className="bg-[#1C1C1C] overflow-hidden text-white font-inter py-12 px-4 sm:px-6 md:px-16 lg:px-20"
       id="aboutus"
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
@@ -48,7 +49,12 @@ Whether it’s investment planning, insurance, retirement, or wealth management,
           />
         </motion.div>
       </div>
+      
     </section>
+    
+      <img src="/images/inmemoriesof.png" alt="in memories of "
+      className=' items-center h-[400px] scale-125 md:scale-100 md:h-auto md:w-[70%]  m-auto ' />
+    </div>
   );
 };
 

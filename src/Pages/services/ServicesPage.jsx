@@ -2,6 +2,8 @@ import React from "react";
 import Contact from "../contactus/Contactus";
 import { div } from "framer-motion/client";
 import { ArrowUpRight } from "lucide-react";
+import { useNavigate } from 'react-router-dom';
+
 // Services Data
 const services = [
   {
@@ -52,6 +54,8 @@ const services = [
 ];
 
 export default function ServicesPage() {
+  
+    const navigate = useNavigate();
   return (
   <div>
     <div className="w-full flex flex-col items-center bg-secondary font-inter lg:pb-16">
@@ -128,7 +132,8 @@ export default function ServicesPage() {
             Wish to invest periodically? Calculate the amount of wealth that you
             can generate using our SIP Calculator.
           </p>
-          <button className="mt-6 px-6 py-3 bg-white text-primary font-semibold rounded-3xl hover:bg-gray-100 transition">
+          <button onClick={() => navigate('/sip-calculator')}
+           className="mt-6 px-6 py-3 bg-white text-primary font-semibold rounded-3xl hover:bg-gray-100 transition">
             GET STARTED <ArrowUpRight size={26} className="text-primary  inline-block"/>
           </button>
         </div>

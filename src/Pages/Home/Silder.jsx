@@ -36,14 +36,11 @@ const BrandCollaborationSwiper = () => {
   );
 
   const brands = [
-    { name: "Brand A", image: "/images/Brand/2.png" },
-    { name: "Brand B", image: "/images/Brand/3.png" },
-    { name: "Brand C", image: "/images/Brand/biba.png" },
-    { name: "Brand D", image: "/images/Brand/big basket.png" },
-    { name: "Brand E", image: "/images/Brand/dhl.png" },
-    { name: "Brand F", image: "/images/Brand/nukaa.png" },
-    { name: "Brand G", image: "/images/Brand/rbs.png" },
-    { name: "Brand H", image: "/images/Brand/phillips.png" },
+    { name: "Brand 1", image: "/images/Brand/brand01.jpg" },
+    { name: "Brand 2", image: "/images/Brand/brand02.png" },
+    { name: "Brand 3", image: "/images/Brand/brand03.png" },
+    { name: "Brand 4", image: "/images/Brand/brand04.png" },
+    { name: "Brand 5", image: "/images/Brand/brand05.png" },
   ];
 
   return (
