@@ -6,7 +6,7 @@ import './Home.css';
 const HeroAndWealthSection = () => {
   const navigate = useNavigate();
   return (
-    <div className="relative font-inter ">
+    <div className="relative font-inter overflow-hidden ">
       {/* === Hero Header Section === */}
       <div className="flex items-start justify-between px-6 md:px-12 py-1 bg-white relative z-10 pb-[15px] lg:pb-[15px]">
         {/* Left Content */}
@@ -17,7 +17,7 @@ const HeroAndWealthSection = () => {
               EMPOWER YOUR
             </h1>
 
-            <div className="hidden relative lg:inline-flex items-center">
+            <div className="hidden relative md:inline-flex items-center">
               <button onClick={() => navigate('/sip-calculator')}
               className="flex items-center border border-black rounded-full bg-white pl-6 pr-20 py-2">
                 <span className="text-black text-2xl font-medium">Get Started</span>
