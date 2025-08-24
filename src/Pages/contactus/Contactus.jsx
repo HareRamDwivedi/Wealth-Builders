@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center font-inter justify-center px-4 py-12 lg:-mt-14" id="contact">
+    <div className="h-[60%] flex items-center font-inter justify-center px-4 py-12 lg:-mt-14" id="contact">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Side - Contact Info */}
         <div>
