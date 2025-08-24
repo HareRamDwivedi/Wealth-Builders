@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-100/90 fixed z-50 w-full px-4 py-4  shadow-gray-500/50 shadow-lg rounded-b-3xl">
+    <nav className="bg-white/60 backdrop-blur-md  fixed z-50 w-full px-4 py-4 shadow-gray-500/50 shadow-sm rounded-b-3xl">
       <div className="max-w-7xl mx-auto flex items-center justify-between ">
         {/* Logo */}
         <Link to="/" onClick={handleNavClick} className="flex items-center space-x-2">

@@ -93,12 +93,51 @@ const HeroAndWealthSection = () => {
             </div>
           </div>
         </div>
+
+
+
       </div>
+
+                  {/* Rotating Logo with Circular Text */}
+<div className="relative bottom-0 left-0 flex items-center justify-center text-black w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:hidden">
+  <img
+    src="/images/Vector 2.png"
+    alt="Logo"
+    className="w-12 h-12 sm:w-10 sm:h-12 z-12 filter grayscale brightness-0 contrast-200"
+  />
+  <svg viewBox="0 0 100 100" className="absolute w-full h-full">
+    <defs>
+      <path
+        id="circlePath"
+        d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"
+      />
+    </defs>
+    <text fill="black" fontSize="4" fontWeight="bold" letterSpacing="2">
+      <textPath href="#circlePath" startOffset="0%">
+        WEALTH BUILDERS • WEALTH BUILDERS • WEALTH BUILDERS •
+        <animate
+          attributeName="startOffset"
+          from="0%"
+          to="100%"
+          dur="10s"
+          repeatCount="indefinite"
+        />
+      </textPath>
+    </text>
+  </svg>
+</div>
 
       {/* === Wealth Builder Section === */}
       <div className="bg-secondary  flex justify-between z-10 mt-10 relative">
         {/* === Background Image Positioned === */}
-        <div className="absolute z-30 inset-0 top-[-60px] lg:top-[-100px] 2xl:top-[-180px] right-0 left-auto flex justify-end pointer-events-none w-[250px] h-[200px] sm:w-[420px] sm:h-[250px] lg:h-auto lg:w-[60%]">
+        <div className="absolute z-30 inset-0 top-[-60px] lg:top-[-100px] 2xl:top-[-140px] right-0 left-auto hidden xl:flex justify-end pointer-events-none w-[250px] h-[200px] sm:w-[420px] sm:h-[250px] lg:h-auto lg:w-[60%]">
+          <img
+            className="h-full w-full"
+            src="/images/Simple-Letter.png"
+            alt="background"
+          />
+        </div>
+         <div className="absolute z-30 inset-0 top-[-180px] left-auto xl:hidden flex justify-end pointer-events-none w-[340px] h-[320px] sm:w-[550px] sm:h-[380px]">
           <img
             className="h-full w-full"
             src="/images/Simple-Letter.png"
