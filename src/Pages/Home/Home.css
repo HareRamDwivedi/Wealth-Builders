@@ -1,0 +1,12 @@
+.small-icons {
+    width: 24px;
+    height: 24px;
+    flex: none;
+}
+
+@media screen and (min-width: 480px) {
+    .small-icons {
+        width: 32px;
+        height: 32px;
+    }
+}
