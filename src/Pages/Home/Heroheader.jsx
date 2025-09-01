@@ -137,7 +137,7 @@ const HeroAndWealthSection = () => {
             alt="background"
           />
         </div>
-         <div className="absolute z-30 inset-0 top-[-140px] sm:top-[-180px] left-auto -mr-[40px] xl:hidden flex justify-end pointer-events-none w-[340px] h-[200px] sm:w-[550px] sm:h-[340px]">
+         <div className="absolute z-30 inset-0 top-[-100px] sm:top-[-160px] left-auto -mr-[40px] xl:hidden flex justify-end pointer-events-none w-[340px] h-[200px] sm:w-[550px] sm:h-[340px]">
           <img
             className="h-full w-full"
             src="/images/Simple-Letter.png"
