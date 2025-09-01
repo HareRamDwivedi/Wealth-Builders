@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const services = [
   {
@@ -27,66 +31,139 @@ const services = [
   },
 ];
 
+const ServiceCard = ({ item }) => (
+  <div
+    className={`rounded-3xl p-6 shadow-md transition duration-300 ease-in-out ${
+      item.active
+        ? "bg-white text-black hover:bg-black hover:text-white hover:shadow-[0_0_10px_2px_rgba(59,130,246,0.5)]"
+        : "bg-white text-black hover:bg-black hover:text-white hover:shadow-[0_0_10px_2px_rgba(59,130,246,0.5)]"
+    }`}
+  >
+    <img
+      src={item.image}
+      alt={item.title}
+      className="w-20 h-20 sm:w-24 sm:h-24 mx-auto mb-4"
+    />
+    <h4 className="text-[15px] Myanmar Khyay text-center mb-2">
+      {item.title}
+    </h4>
+    <p className="text-center Montserrat text-[12px] sm:text-[13px] text-gray-600 hover:text-white">
+      {item.desc}
+    </p>
+  </div>
+);
+
 const ServicesSection = () => {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const [swiperReady, setSwiperReady] = useState(false);
+
+  useEffect(() => {
+    // Ensure refs are set before rendering Swiper
+    setSwiperReady(true);
+  }, []);
+
   return (
-    <section className="bg-gray-200 font-inter py-16 px-4 sm:px-6 lg:px-20" id="services">
+    <section
+      className="bg-gray-200 font-inter py-16 px-4 sm:px-6 lg:px-20"
+      id="services"
+    >
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12">
         {/* Left Content */}
         <div className="lg:w-1/2 sm:items-center">
-          <span className="inline-block bg-white text-gray-700 text-[19px] sm:text-[17px] px-12 py-1 rounded-full mb-6 shadow">
-            Service
-          </span>
           <h2 className="text-[31px] sm:text-[47px] lg:text-[45px] font-inter font-semibold mb-6 leading-tight">
             INVEST WITH THE <br />
             <span className="text-blue-600">CONFIDENCE</span> <br />
             SUCCEED WITH EASE
           </h2>
           <p className="text-[18px] sm:text-[16px] lg:text-[18px] text-gray-600 mb-10 leading-relaxed">
-            At <span className="text-blue-600">Wealth Builders</span>
-            , we empower you to take control of your 
-            financial future with expert guidance, transparent tools, and
-             strategies that work. Whether you're just starting out or expanding 
-             your portfolio, our platform is built to make investing simple, smart,
-              and stress-free. Backed by real insights and intuitive technology,
-               we help you invest with clarity — so you can focus less on uncertainty
-                and more on your goals. Your success shouldn't be complicated — and
-                 with us, it isn't.
-
-
-
+            At <span className="text-blue-600">Wealth Builders</span>, we
+            empower you to take control of your financial future with expert
+            guidance, transparent tools, and strategies that work. Whether
+            you're just starting out or expanding your portfolio, our platform
+            is built to make investing simple, smart, and stress-free. Backed
+            by real insights and intuitive technology, we help you invest with
+            clarity — so you can focus less on uncertainty and more on your
+            goals. Your success shouldn't be complicated — and with us, it
+            isn't.
           </p>
-          <button onClick={() => {
-    // Navigate to the URL with #contact
-    window.location.href = "/services";
-  }}
-          className="bg-blue-600 hover:bg-blue-700 text-white font-extralight text-[13px] px-10 py-3 rounded-full transition sm:items-center">
+          <button
+            onClick={() => (window.location.href = "/services")}
+            className="bg-blue-600 hover:bg-blue-700 text-white font-normal text-[13px] px-10 py-3 rounded-full transition sm:items-center"
+          >
             Know More About Our Services
           </button>
         </div>
 
-        {/* Right Feature Grid */}
-        <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
-          {services.map((item, index) => (
-            <div
-              key={index}
-              className={`rounded-3xl p-6 shadow-md transition duration-300 ease-in-out ${
-                item.active
-                  ? "bg-white text-black hover:bg-black hover:text-white hover:shadow-[0_0_10px_2px_rgba(59,130,246,0.5)]"
-                  : "bg-white text-black hover:bg-black hover:text-white hover:shadow-[0_0_10px_2px_rgba(59,130,246,0.5)]"
-              }`}
+        {/* Mobile Carousel with Buttons */}
+        <div className="lg:w-1/2 w-full relative block sm:hidden">
+          {swiperReady && (
+            <Swiper
+              spaceBetween={16}
+              slidesPerView={1}
+              modules={[Navigation]}
+              navigation={{
+                prevEl: prevRef.current,
+                nextEl: nextRef.current,
+              }}
+              onBeforeInit={(swiper) => {
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+              }}
             >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-20 h-20 sm:w-24 sm:h-24 mx-auto mb-4"
+              {services.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <ServiceCard item={item} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          )}
+
+          {/* Left Button */}
+          <button
+            ref={prevRef}
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-md"
+          >
+            <svg
+              className="w-5 h-5 text-gray-600"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 19l-7-7 7-7"
               />
-              <h4 className="text-[15px] Myanmar Khyay text-center mb-2">
-                {item.title}
-              </h4>
-              <p className="text-center Montserrat text-[12px] sm:text-[13px] text-gray-600 hover:text-white">
-                {item.desc}
-              </p>
-            </div>
+            </svg>
+          </button>
+
+          {/* Right Button */}
+          <button
+            ref={nextRef}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-md"
+          >
+            <svg
+              className="w-5 h-5 text-gray-600"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+
+        {/* Desktop Grid */}
+        <div className="lg:w-1/2 hidden sm:grid grid-cols-2 gap-6 w-full">
+          {services.map((item, index) => (
+            <ServiceCard key={index} item={item} />
           ))}
         </div>
       </div>

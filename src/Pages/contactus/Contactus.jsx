@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-[68%] flex items-center font-inter justify-center px-4 py-12 mt-28 lg:mt-28 " id="contact">
+    <div className="h-[68%] flex items-center font-inter justify-center px-4 py-12 mt-0 lg:mt-12 " id="contact">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Side - Contact Info */}
         <div>
@@ -60,26 +60,26 @@ const Contact = () => {
               <span className="text-blue-600 text-2xl mr-3"><img className="w-[22px]" src="/images/gps.png" alt="location" /></span>
               <p className="text-[14px] sm:text-[17px] font-bold">OFFICE</p>
             </div>
-            <p className="text-gray-700 text-[12px] sm:text-[15px] ml-9">
+            <p className="text-gray-700 text-[15px] sm:text-[16px] ml-9">
               Ashirwaad 153, MIG ADA Colony, Near Mamta Bakery,<br /> Preetam Nagar - 211011
             </p>
           </div>
           <div className="mb-6">
             <div className="flex items-center mb-2">
               <span className="text-blue-600 text-2xl mr-3"><img className="w-[22px]" src="/images/phone-call.png" alt="phone" /></span>
-              <p className="text-[14px] sm:text-[17px] font-bold">Contact Numbers:</p>
+              <p className="text-[15px] sm:text-[17px] font-bold">Contact Numbers:</p>
             </div>
-            <p className="text-gray-700 text-[12px] sm:text-[15px] ml-9">
-               +91 9335157730 | +91 798648032
+            <p className="text-gray-700 text-[15px] sm:text-[15px] ml-9">
+               +91 9335157730 | <br  className="sm:hidden" /> +91 798648032
             </p>
           </div>
           <div className="mb-6">
             <div className="flex items-center mb-2">
               <span className="text-blue-600 text-2xl mr-3"><img className="w-[22px]" src="/images/email.png" alt="email" /></span>
-              <p className="text-[14px] sm:text-[17px] font-bold">Emails:</p>
+              <p className="text-[15px] sm:text-[17px] font-bold">Emails:</p>
             </div>
-            <p className="text-gray-700 text-[12px] sm:text-[15px] ml-9">
-                p.nmehrotra@yahoo.co.in | wealthbuilders1989@gmail.com
+            <p className="text-gray-700 text-[15px] sm:text-[16px] ml-9">
+                p.nmehrotra@yahoo.co.in  <br /> wealthbuilders1989@gmail.com
             </p>
           </div>
         </div>

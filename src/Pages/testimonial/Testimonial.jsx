@@ -46,7 +46,7 @@ const Testimonial = () => {
           <h2 className="sm:text-[50px] text-[26px] Myanmar Khyay mb-4">
             What People Are Saying <br /> About Our Services
           </h2>
-          <p className="text-gray-500 text-[16px] Montserrat md:absolute md:right-20 md:top-20 max-w-xs">
+          <p className="text-gray-500 text-[16px] md:absolute md:right-20 md:top-24 max-w-xs">
             Navigating Your Finance Together Trusted Financial Resources and People
           </p>
         </div>

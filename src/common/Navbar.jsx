@@ -38,6 +38,9 @@ const Navbar = () => {
           <Link to="/#testimonial" onClick={handleNavClick} className="text-gray-700 text-Myanmar Khyay text-[19px] hover:text-blue-600 font-medium transition-colors">
             Testimonial
           </Link>
+          <Link to="/sip-calculator" onClick={handleNavClick} className="text-gray-700 text-Myanmar Khyay text-[19px] hover:text-blue-600 font-medium transition-colors">
+            Sip Calculator
+          </Link>
         </div>
 
         {/* Contact Button */}
@@ -73,6 +76,9 @@ const Navbar = () => {
             </Link>
             <Link to="/#testimonial" onClick={handleNavClick} className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-4 py-2">
               Testimonial
+            </Link>
+            <Link to="/sip-calculator" onClick={handleNavClick} className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-4 py-2">
+              Sip Calculator
             </Link>
             <div className="px-4 pt-2">
               <Link to="/#contact" onClick={handleNavClick}>

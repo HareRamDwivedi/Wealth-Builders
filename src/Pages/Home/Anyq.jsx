@@ -65,7 +65,7 @@ const FaqSection = () => {
                 className="flex justify-between items-center w-full text-left"
                 onClick={() => toggleFaq(index)}
               >
-                <span className="text-[11px] sm:text-[18px] Myanmar Khyay text-gray-900">
+                <span className="text-[15px] sm:text-[18px] Myanmar Khyay text-gray-900">
                   {faq.question}
                 </span>
                 {openIndex === index ? (
@@ -75,7 +75,7 @@ const FaqSection = () => {
                 )}
               </button>
               {openIndex === index && faq.answer && (
-                <p className="mt-2 text-[11px] sm:text-[15px] Montserrat text-gray-600">
+                <p className="mt-2 text-[15px] sm:text-[16px] Montserrat text-gray-600">
                   {faq.answer}
                 </p>
               )}

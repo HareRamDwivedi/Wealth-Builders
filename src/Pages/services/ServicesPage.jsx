@@ -128,8 +128,8 @@ export default function ServicesPage() {
       {/* CTA Section */}
       <section className="w-full pt-28  px-4 md:px-8">
         <div className="max-w-6xl mx-auto bg-primary text-white rounded-[50px] p-8 md:px-36 text-center">
-          <p className="text-2xl md:text-3xl font-semibold">
-            Wish to invest periodically? Calculate the amount of wealth that you
+          <p className="text-2xl md:text-3xl font-nopmal">
+           <span className="font-bold">Wish to invest periodically?  </span> Calculate the amount of wealth that you
             can generate using our SIP Calculator.
           </p>
           <button onClick={() => navigate('/sip-calculator')}

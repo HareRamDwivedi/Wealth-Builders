@@ -130,14 +130,14 @@ const HeroAndWealthSection = () => {
       {/* === Wealth Builder Section === */}
       <div className="bg-secondary  flex justify-between z-10 mt-10 relative">
         {/* === Background Image Positioned === */}
-        <div className="absolute z-30 inset-0 top-[-60px] lg:top-[-100px] 2xl:top-[-140px] right-0 left-auto hidden xl:flex justify-end pointer-events-none w-[250px] h-[200px] sm:w-[420px] sm:h-[250px] lg:h-auto lg:w-[60%]">
+        <div className="absolute z-30 inset-0 top-[-60px] lg:top-[-100px] 2xl:top-[-110px] right-0 left-auto hidden xl:flex justify-end pointer-events-none w-[250px] h-[200px] sm:w-[420px] sm:h-[250px] lg:h-auto lg:w-[60%]">
           <img
             className="h-full w-full"
             src="/images/Simple-Letter.png"
             alt="background"
           />
         </div>
-         <div className="absolute z-30 inset-0 top-[-140px] sm:top-[-180px] left-auto -mr-[40px] xl:hidden flex justify-end pointer-events-none w-[340px] h-[265px] sm:w-[550px] sm:h-[380px]">
+         <div className="absolute z-30 inset-0 top-[-140px] sm:top-[-180px] left-auto -mr-[40px] xl:hidden flex justify-end pointer-events-none w-[340px] h-[200px] sm:w-[550px] sm:h-[340px]">
           <img
             className="h-full w-full"
             src="/images/Simple-Letter.png"
