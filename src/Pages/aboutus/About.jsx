@@ -54,9 +54,6 @@ Whether it’s investment planning, insurance, retirement, or wealth management,
       </div>
       
     </section>
-    
-      <img src="/images/inmemoriesof.png" alt="in memories of "
-      className=' items-center h-[280px] scale-125 md:scale-100 md:h-auto md:w-[70%]  m-auto ' />
     </div>
   );
 };

@@ -44,16 +44,16 @@ export default function Footer() {
           <h3 className="text-[21px]sm:text-[25px] Myanmar Khyay mb-4">Quick Navigate</h3>
           <ul className="space-y-2 text-[15px] Montserrat text-gray-300">
             <li>
-              <a href="#" className="hover:text-white">About</a>
+              <a href="/#aboutus" className="hover:text-white">About</a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">Services</a>
+              <a href="/services" className="hover:text-white">Services</a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">Testimonials</a>
+              <a href="/#testimonial" className="hover:text-white">Testimonials</a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">Contact Us</a>
+              <a href="/#contact" className="hover:text-white">Contact Us</a>
             </li>
           </ul>
         </div>

@@ -9,6 +9,7 @@ import Testimonial from '../testimonial/Testimonial'
 import  Contact  from '../contactus/Contactus'
 import EmpowerSection from '../aboutus/About'
 import ServicesSection from '../services/Services'
+import InMemories from '../in_meories/InMemories'
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
       {/* <Satisfied/> */}
       <Slider/>
       <EmpowerSection/>
+      <InMemories />
       <ServicesSection/>
       <MakeUs/>
       <Team/>
