@@ -12,8 +12,8 @@ export default function Footer() {
             <h2 className="text-lg font-semibold tracking-wide">WEALTH BUILDERS</h2>
           </div>
           <p className="text-[17px] sm:text-[20px] Montserrat text-gray-300 leading-relaxed">
-            3/12 Wealth Builders , Saksham Landmark, <br />
-             Elgin Road , Lal Bahadur Shastri Marg , Civil Lines , Prayagraj - 211001
+            3/12 Wealth Builders , Saksham Landmark, <br className="hidden lg:block" />
+             Elgin Road , Lal Bahadur Shastri Marg ,<br className="hidden lg:block"/> Civil Lines , Prayagraj - 211001
           </p>
 
           {/* Social Icons */}
