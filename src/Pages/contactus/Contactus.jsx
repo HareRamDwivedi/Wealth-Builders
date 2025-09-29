@@ -61,8 +61,8 @@ const Contact = () => {
               <p className="text-[14px] sm:text-[17px] font-bold">OFFICE</p>
             </div>
             <p className="text-gray-700 text-[15px] sm:text-[16px] ml-9">
-              Ashirwaad 153, MIG ADA Colony, Near Mamta Bakery,<br /> Preetam Nagar - 211011
-            </p>
+               3/12 Wealth Builders , Saksham Landmark, <br />
+             Elgin Road , Lal Bahadur Shastri Marg , Civil Lines ,<br /> Prayagraj - 211001
           </div>
           <div className="mb-6">
             <div className="flex items-center mb-2">
