@@ -50,7 +50,7 @@ Whether it’s investment planning, insurance, retirement, or wealth management,
             className="rounded-2xl object-cover w-full max-w-[400px] mx-auto md:mx-0 lg:ml-36"
             loading="lazy"
           />
-          <p className=" w-full max-w-[400px] text-center font-light mt-2 lg:mt-4 mx-auto md:mx-0 lg:ml-36">Arunim Mehrotra</p>
+          <p className=" w-full max-w-[400px] text-xl text-center font-light mt-2 lg:mt-4 mx-auto md:mx-0 lg:ml-36">Arunim Mehrotra</p>
         </motion.div>
       </div>
       
