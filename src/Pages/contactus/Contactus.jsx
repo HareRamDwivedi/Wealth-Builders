@@ -62,7 +62,9 @@ const Contact = () => {
             </div>
             <p className="text-gray-700 text-[15px] sm:text-[16px] ml-9">
                3/12 Wealth Builders , Saksham Landmark, <br />
-             Elgin Road , Lal Bahadur Shastri Marg , Civil Lines ,<br /> Prayagraj - 211001
+             Elgin Road , Lal Bahadur Shastri Marg , Civil Lines ,
+             <br /> Prayagraj - 211001
+            </p>
           </div>
           <div className="mb-6">
             <div className="flex items-center mb-2">
