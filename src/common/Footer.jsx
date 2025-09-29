@@ -12,8 +12,8 @@ export default function Footer() {
             <h2 className="text-lg font-semibold tracking-wide">WEALTH BUILDERS</h2>
           </div>
           <p className="text-[17px] sm:text-[20px] Montserrat text-gray-300 leading-relaxed">
-            Ashirwaad 153, MIG ADA Colony,<br />
-            Near Mamta Bakery, Preetam Nagar - 211011
+            3/12 Wealth Builders , Saksham Landmark, <br />
+             Elgin Road , Lal Bahadur Shastri Marg , Civil Lines , Prayagraj - 211001
           </p>
 
           {/* Social Icons */}
@@ -62,10 +62,10 @@ export default function Footer() {
         <div>
           <h3 className="text-[21px]sm:text-[25px] Myanmar Khyay mb-4">Contact Us</h3>
           <p className="text-[15px] Montserrat text-gray-300 mb-2">
-            +91 97957 20319
+            +91 9335879212
           </p>
           <p className="text-[15px] Montserrat text-gray-300">
-            Example@123.gmail.com
+           wealthbuilders1989@gmail.com
           </p>
         </div>
       </div>

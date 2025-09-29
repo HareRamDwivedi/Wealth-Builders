@@ -37,7 +37,7 @@ const EmpowerSection = () => {
           />
         </motion.div>
         <h2 className="font-medium tracking-wide pt-6 w-full text-[20px] lg:text-[42px] sm:text-[28px] leading-tight mx-auto text-center items-center justify-center">
-           PRAKASH NARAYAN MEHROTRA
+           PRAKASH NARAIN MEHROTRA
           </h2>
         
         <h3 className="font-medium tracking-wide pt-2 w-full text-[20px] lg:text-[38px] sm:text-[28px] leading-tight mx-auto text-center items-center justify-center">
