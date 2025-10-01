@@ -4,8 +4,6 @@ import React, { useRef } from "react";
 const EmpowerSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 }); 
-  // once: true -> only runs first time
-  // amount: 0.3 -> triggers when 30% of section is visible
 
   return (
     <div className="overflow-hidden">

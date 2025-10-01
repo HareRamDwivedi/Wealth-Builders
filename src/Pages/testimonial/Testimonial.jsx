@@ -38,7 +38,7 @@ const Testimonial = () => {
   return (
     <section className="relative bg-gray-50 py-16 px-6 md:px-20" id="testimonial">
       {/* Background Design */}
-      <div className="absolute inset-0 bg-[url('/bg-puzzle.png')] opacity-10 pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-10 pointer-events-none"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
         {/* Header */}
