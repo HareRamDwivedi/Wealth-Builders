@@ -10,7 +10,7 @@ import  Contact  from '../contactus/Contactus'
 import EmpowerSection from '../aboutus/About'
 import ServicesSection from '../services/Services'
 import InMemories from '../in_meories/InMemories'
-import Group from './group'
+import Group from '../Home/Group'
 const Home = () => {
   return (
     <div>
