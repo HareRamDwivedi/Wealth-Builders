@@ -10,6 +10,7 @@ import  Contact  from '../contactus/Contactus'
 import EmpowerSection from '../aboutus/About'
 import ServicesSection from '../services/Services'
 import InMemories from '../in_meories/InMemories'
+import Group from './group'
 const Home = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const Home = () => {
       <Testimonial/>
       <Anyq/>
       <Contact/>
+      <Group />
     </div>
   )
 }

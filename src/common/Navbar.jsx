@@ -29,6 +29,9 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-10">
+          <Link to="/" onClick={handleNavClick} className="text-gray-700 text-Myanmar Khyay text-[19px] hover:text-blue-600 font-medium transition-colors">
+              Home
+            </Link>
           <Link to="/#aboutus" onClick={handleNavClick} className="text-gray-700 text-Myanmar Khyay text-[19px] hover:text-blue-600 font-medium transition-colors">
             About
           </Link>
@@ -68,6 +71,9 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden mt-4 pb-4">
           <div className="flex flex-col space-y-4">
+            <Link to="/" onClick={handleNavClick} className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-4 py-2">
+              Home
+            </Link>
             <Link to="/#aboutus" onClick={handleNavClick} className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-4 py-2">
               About
             </Link>

@@ -182,7 +182,7 @@ const HeroAndWealthSection = () => {
 
               {/* Description */}
               <div className="text-gray-400 lg:ml-[200px] text-[15px] text-Montserrat max-w-xs leading-relaxed">
-               Guiding over 120K+ clients with expert  <br /> afinancial planning, investment solutions, <br /> and wealth management services.
+               Guiding over 120K+ clients with expert  <br /> a financial planning, investment solutions, <br /> and wealth management services.
               </div>
             </div>
 

@@ -10,19 +10,19 @@ const testimonials = [
   {
     name: "Ritika Sharma",
     position: " IT Professional",
-    image: "/images/Rectangle.png",
+    image: "/images/Ritika.png",
     text: "“ Wealth Builders made investing so easy. I never thought I could grow my savings this fast. Their SIP guidance gave me a disciplined way to build wealth without stress. “",
   },
   {
     name: "Ankit Verma",
     position: " Entrepreneur",
-    image: "/images/Rectangle-2.png",
+    image: "/images/AnkitVerma.jpeg",
     text: "“ The team helped me pick the perfect insurance plans for my family. Today, I feel secure knowing that no matter what happens, my loved ones are financially protected. “",
   },
   {
     name: "Meena Joshi",
     position: "Retired Teacher",
-    image: "/images/Rectangle-1.png",
+    image: "/images/MeenaJoshi.jpg",
     text: "“ I was worried about my retirement, but Wealth Builders designed a clear plan for me. Now I know I’ll have a steady income even after I stop working. That peace of mind is priceless. “",
   },
   {
