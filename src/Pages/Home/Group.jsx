@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 
 const Group = () => {
   return (
-    <div className="relative w-full -mt-24 -z-10" > 
+    <div className="relative w-full -mt-8 lg:-mt-24 -z-10" > 
+
+      <h1 className="relative font-inter z-10 text-center text-3xl xl:text-4xl font-semibold lg:-mb-10 px-4 lg:px-0 mt-10 lg:mt-28 text-gray-800 ">
+        Partner with our expert team to elevate your <span className="text-primary">financial </span> journey
+      </h1>
+
       <motion.img
         src="/images/Group.png"
         alt="Empower Person"

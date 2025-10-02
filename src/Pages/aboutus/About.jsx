@@ -64,7 +64,7 @@ const EmpowerSection = () => {
               loading="lazy"
             />
             <p className="w-full max-w-[400px] text-xl text-center font-semibold mt-2 lg:mt-4 mx-auto md:mx-0 lg:ml-36">
-              Arunim Mehrotra
+             ARUNIM MEHROTRA
             </p>
           </motion.div>
         </div>
