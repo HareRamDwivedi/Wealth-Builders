@@ -62,7 +62,7 @@ export default function Footer() {
         <div>
           <h3 className="text-[21px]sm:text-[25px] Myanmar Khyay mb-4">Contact Us</h3>
           <p className="text-[15px] Montserrat text-gray-300 mb-2">
-            +91 9335879212
+            +91 9335879212 | +91 798648032
           </p>
           <p className="text-[15px] Montserrat text-gray-300">
            wealthbuilders1989@gmail.com

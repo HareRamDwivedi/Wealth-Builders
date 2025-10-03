@@ -10,13 +10,13 @@ export default function MeetOurTeam() {
       id: 1,
       name: "Prachi",
       position: "Client Success",
-      image: "/images/Prachi.jpg"
+      image: "/images/Prachi.jpeg"
     },
     {
       id: 2,
       name: "Dhruv Kesharwani",
       position: "Sales Representative",
-      image: "/images/Dhruv Kesharwani.jpg"
+      image: "/images/Dhruv.jpeg"
     },
     {
       id: 3,
