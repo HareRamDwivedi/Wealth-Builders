@@ -20,9 +20,9 @@ export default function MeetOurTeam() {
     },
     {
       id: 3,
-      name: "Aswani Verma",
+      name: "Ashwani Verma",
       position: "Senior Sales Manager",
-      image: "/images/Aswani Verma.JPG"
+      image: "/images/Ashwani.jpeg"
     }
   ];
 

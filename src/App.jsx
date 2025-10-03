@@ -10,7 +10,7 @@ import Home from './Pages/Home/Home';
 import Services from './Pages/services/Services';
 import Contact from './Pages/contactus/Contactus';
 import Testimonial from './Pages/testimonial/Testimonial';
-import SipCalc from './Pages/sipCalc/sipCalc';
+import SipCalc from './Pages/sipCalc/sipCalc'; 
 import ServicesPage from './Pages/services/ServicesPage';
 
 function ScrollToHashElement() {
