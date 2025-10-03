@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <p className="text-[17px] sm:text-[20px] Montserrat text-gray-300 leading-relaxed">
              3/12 (Wealth Builders), Opp. Yash Hospital, <br className="hidden lg:block" /> 
-             Saidham Landmark, Elgin Road, Lal Bahadur Shastri Marg,,<br className="hidden lg:block"/>
+             Saidham Landmark, Elgin Road, Lal Bahadur Shastri Marg,<br className="hidden lg:block"/>
               Civil Lines, Prayagraj-211001
           </p>
 

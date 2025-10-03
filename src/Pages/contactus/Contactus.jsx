@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
             <p className="text-gray-700 text-[15px] sm:text-[16px] ml-9">
               3/12 (Wealth Builders), Opp. Yash Hospital, <br className="hidden lg:block" /> 
-             Saidham Landmark, Elgin Road, Lal Bahadur Shastri Marg,,<br className="hidden lg:block"/>
+             Saidham Landmark, Elgin Road, Lal Bahadur Shastri Marg,<br className="hidden lg:block"/>
               Civil Lines, Prayagraj-211001
             </p>
           </div>
